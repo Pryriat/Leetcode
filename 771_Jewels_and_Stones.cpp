@@ -15,9 +15,11 @@ Note:
 S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
 */
-class Solution {
+class Solution 
+{
 public:
-    int numJewelsInStones(string J, string S) {
+    int numJewelsInStones(string J, string S) 
+    {
         int result = 0;
         for(auto x:J)
             for(auto y:S)
