@@ -14,8 +14,6 @@ public:
 };
 */
 
-#pragma GCC optimize("Ofast")
-static auto x = []() {std::ios::sync_with_stdio(false); std::cin.tie(nullptr); return nullptr; }();
 class Solution 
 {
 public:
